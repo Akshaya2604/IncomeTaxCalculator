@@ -5,6 +5,8 @@ import static org.junit.jupiter.api.Assertions.*;
 class IncomeTaxCalculatorTest {
     @Test
     void twoLakhsShouldReturnZero(){
+        //todo remove below line after testing
+        //abcd
         var result=new IncomeTaxCalculatorTest();
         assertEquals(0,IncomeTaxCalculator.taxCalculation(200000));
     }
